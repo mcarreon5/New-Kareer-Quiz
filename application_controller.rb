@@ -8,7 +8,7 @@ class MyApp < Sinatra::Base
   end
   
   get '/quiz' do
-    erb :quiz.erb
+    erb :quiz
   end 
   
    post '/results' do
